@@ -21,3 +21,8 @@ body{
     margin:auto;
     width: 99%;
 }
+
+.searchTerm{
+  height: 100px;
+  width: 100px;
+}
