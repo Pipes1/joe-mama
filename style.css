@@ -1,5 +1,6 @@
 .rainbow-text {
-  background-image: repeating-linear-gradient(45deg, violet, indigo, blue, green, yellow, orange, red, violet);
+  background-image: repeating-linear-gradient(45deg, violet, indigo,
+ blue, green, yellow, orange, red, violet);
   background-size: 800% 800%;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -24,5 +25,5 @@ body{
 
 .searchTerm{
   height: 100px;
-  width: 100px;
+  width: 1000px;
 }

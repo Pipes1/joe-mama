@@ -3,9 +3,9 @@ function musicPlay() {
     document.getElementById('player').play();
     document.removeEventListener('click', musicPlay);
 }
-document.addEventListener('wheel', musicPlay);
+document.addEventListener('scroll', musicPlay);
 
 function musicPlay() {
     document.getElementById('player').play();
-    document.removeEventListener('wheel', musicPlay);
+    document.removeEventListener('scroll', musicPlay);
 }
